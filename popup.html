@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aliceblue;">
+    <h1 style="text-align: center;">Auto Refresher</h1>
+    
+    <div class="container" style="height: 190px; width: 190px; padding: 25px;text-align:center; ">
+        <button class="startt" id="toggle" style="background-color: rgb(104, 176, 104); color: black; border-radius: 5px; border: 1px black; padding: 5px; width: 140px;">Start</button>
+        <!-- <button class="stopp" id="stop" style="background-color: rgb(198, 27, 27); color: black; border-radius: 5px; border: 1px black; padding: 5px; width: 70px;">Stop</button> -->
+        <h3>Set time</h3>
+        <label for="duration">Select duration:</label>
+    <select id="duration">
+      <option value="2000">2 seconds</option>
+      <option value="5000">5 seconds</option>
+      <option value="10000">10 seconds</option>
+      <option value="15000">15 seconds</option>
+      <option value="30000">30 seconds</option>
+      <option value="100000">1 minute</option>
+    </select>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
